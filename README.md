@@ -21,19 +21,23 @@ O objetivo do projeto foi desenvolver um estudo baseado em um conjunto de dados 
 
 A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por isso o nome do projeto: BR e-com Analysis. A base está disponível [nesse link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 
-<details>
-  <summary>Inicialização</summary>
+## Inicialização
+
   O arquivo `brecom-analysis.ipynb` é o arquivo principal do projeto, visto que nele estão todas as análises feitas. Para reproduzir corretamente os resultados que serão mostrados aqui, o usuário precisa, primeiro, preparar o ambiente corretamente, seguindo os passos abaixo:
 
-  ## Fazendo o download da base do [Kaggle](https://www.kaggle.com/) (Standalone).
+  <details>
+    <summary>
+      Fazendo o download da base do [Kaggle](https://www.kaggle.com/) (Standalone).
+    </summary>
   - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
   - Crie uma pasta com o nome `.kaggle` no seu ambiente python e cole o arquivo `kaggle.json` dentro dessa pasta.
   - No arquivo `brecom-analysis.ipynb`, encontre o comando abaixo e substitua o caminho do download da base para um na sua máquina:
 ```
 !kaggle datasets download -d olistbr/brazilian-ecommerce -p D:\Adam\Estudos\ADA\tecprog\projeto\brecom-analysis\database --unzip    
 ```
-
-  ## Fazendo o download da base do [Kaggle](https://www.kaggle.com/) (Google Colab).
+  <summary>
+    Fazendo o download da base do [Kaggle](https://www.kaggle.com/) (Google Colab).
+  </summary>
   - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
   - Utilize a sequência de comandos abaixo para criar uma pasta `.kaggle` no ambiente do Colab.
 ```
@@ -52,7 +56,7 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 !kaggle datasets download -d olistbr/brazilian-ecommerce
 !unzip /content/brecom-analysis/database/brazilian-ecommerce.zip
 %cd ../
-```
+``` 
 </details>
 
 ## Introdução
