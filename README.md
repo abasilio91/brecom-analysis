@@ -27,7 +27,7 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 
   <details>
     <summary>
-      Fazendo o download da base do [Kaggle](https://www.kaggle.com/) (Standalone).
+      Fazendo o download da base do Kaggle (Standalone)
     </summary>
   - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
   - Crie uma pasta com o nome `.kaggle` no seu ambiente python e cole o arquivo `kaggle.json` dentro dessa pasta.
@@ -39,7 +39,7 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 
 <details>
   <summary>
-    Fazendo o download da base do [Kaggle](https://www.kaggle.com/) (Google Colab).
+    Fazendo o download da base do Kaggle (Google Colab)
   </summary>
   - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
   - Utilize a sequência de comandos abaixo para criar uma pasta `.kaggle` no ambiente do Colab.
