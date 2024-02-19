@@ -68,3 +68,8 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 
 ## Introdução
 
+## Metodologia
+
+## Resultados
+
+## Conclusão
