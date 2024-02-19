@@ -35,6 +35,9 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 ```
 !kaggle datasets download -d olistbr/brazilian-ecommerce -p D:\Adam\Estudos\ADA\tecprog\projeto\brecom-analysis\database --unzip    
 ```
+  </details>
+
+<details>
   <summary>
     Fazendo o download da base do [Kaggle](https://www.kaggle.com/) (Google Colab).
   </summary>
