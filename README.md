@@ -29,37 +29,40 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
     <summary>
       Fazendo o download da base do Kaggle (Standalone)
     </summary>
-  - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
-  - Crie uma pasta com o nome `.kaggle` no seu ambiente python e cole o arquivo `kaggle.json` dentro dessa pasta.
-  - No arquivo `brecom-analysis.ipynb`, encontre o comando abaixo e substitua o caminho do download da base para um na sua máquina:
-```
-!kaggle datasets download -d olistbr/brazilian-ecommerce -p D:\Adam\Estudos\ADA\tecprog\projeto\brecom-analysis\database --unzip    
-```
+   
+    - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
+    - Crie uma pasta com o nome `.kaggle` no seu ambiente python e cole o arquivo `kaggle.json` dentro dessa pasta.
+    - No arquivo `brecom-analysis.ipynb`, encontre o comando abaixo e substitua o caminho do download da base para um na sua máquina:
+    
+    ```
+    !kaggle datasets download -d olistbr/brazilian-ecommerce -p D:\Adam\Estudos\ADA\tecprog\projeto\brecom-analysis\database --unzip    
+    ```
   </details>
 
 <details>
   <summary>
     Fazendo o download da base do Kaggle (Google Colab)
   </summary>
-  - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
-  - Utilize a sequência de comandos abaixo para criar uma pasta `.kaggle` no ambiente do Colab.
-```
-!mkdir -p ~/.kaggle
-```
-  - Faça o upload do arquivo `kaggle.json` na pasta `content` do Colab.
-  - Utilize a sequência de comandos abaixo para transferir o arquivo `kaggle.json` para a pasta `.kaggle`.
-```
-!cp kaggle.json ~/.kaggle/
-!chmod 600 ~/.kaggle/kaggle.json
-```
-  - Utilize a sequência de comandos abaixo para fazer o download da base do kaggle para a pasta `database`.
-```
-!mkdir /content/brecom-analysis/database
-%cd /content/brecom-analysis/database
-!kaggle datasets download -d olistbr/brazilian-ecommerce
-!unzip /content/brecom-analysis/database/brazilian-ecommerce.zip
-%cd ../
-``` 
+ 
+    - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
+    - Utilize a sequência de comandos abaixo para criar uma pasta `.kaggle` no ambiente do Colab.
+    ```
+    !mkdir -p ~/.kaggle
+    ```
+    - Faça o upload do arquivo `kaggle.json` na pasta `content` do Colab.
+    - Utilize a sequência de comandos abaixo para transferir o arquivo `kaggle.json` para a pasta `.kaggle`.
+    ```
+    !cp kaggle.json ~/.kaggle/
+    !chmod 600 ~/.kaggle/kaggle.json
+    ```
+    - Utilize a sequência de comandos abaixo para fazer o download da base do kaggle para a pasta `database`.
+    ```
+    !mkdir /content/brecom-analysis/database
+    %cd /content/brecom-analysis/database
+    !kaggle datasets download -d olistbr/brazilian-ecommerce
+    !unzip /content/brecom-analysis/database/brazilian-ecommerce.zip
+    %cd ../
+    ``` 
 </details>
 
 ## Introdução
