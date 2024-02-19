@@ -26,17 +26,15 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
   O arquivo `brecom-analysis.ipynb` é o arquivo principal do projeto, visto que nele estão todas as análises feitas. Para reproduzir corretamente os resultados que serão mostrados aqui, o usuário precisa, primeiro, preparar o ambiente corretamente, seguindo os passos abaixo:
 
   <details>
-    <summary>
-      Fazendo o download da base do Kaggle (Standalone)
-    </summary>
+    <summary> Fazendo o download da base do Kaggle (Standalone) </summary>
    
-    - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
-    - Crie uma pasta com o nome `.kaggle` no seu ambiente python e cole o arquivo `kaggle.json` dentro dessa pasta.
-    - No arquivo `brecom-analysis.ipynb`, encontre o comando abaixo e substitua o caminho do download da base para um na sua máquina:
+  - Entre no [link da API do Kaggle](https://www.kaggle.com/docs/api) e siga os procedimentos descritos na seção de **inicialização** para fazer o download do arquivo `kaggle.json`.
+  - Crie uma pasta com o nome `.kaggle` no seu ambiente python e cole o arquivo `kaggle.json` dentro dessa pasta.
+  - No arquivo `brecom-analysis.ipynb`, encontre o comando abaixo e substitua o caminho do download da base para um na sua máquina:
     
-    ```
-    !kaggle datasets download -d olistbr/brazilian-ecommerce -p D:\Adam\Estudos\ADA\tecprog\projeto\brecom-analysis\database --unzip    
-    ```
+  ```
+  !kaggle datasets download -d olistbr/brazilian-ecommerce -p D:\Adam\Estudos\ADA\tecprog\projeto\brecom-analysis\database --unzip    
+  ```
   </details>
 
 <details>
