@@ -66,28 +66,27 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 </details>
 
 <details> 
-  <summary> Introdução </summary>
+  <summary> ## Introdução </summary>
 
+  - Se apresentar como uma empresa (fictícia) de consultória que ficou responsável por analisar os dados de vendas da Olist (o que é Olist?) e propôr melhorias.
+  - Quem é a Olist?
+  - Comentar os dados.
+  - A princípio foi levantado duas hipóteses de melhoria. Objetivo?
+    - O projeto de um Centro de Distribuição
+    - O cálculo de probabilidade de recompras baseados nas avaliações
   
 </details>
 
-- Se apresentar como uma empresa (fictícia) de consultória que ficou responsável por analisar os dados de vendas da Olist (o que é Olist?) e propôr melhorias.
-- Quem é a Olist?
-- Comentar os dados.
-- A princípio foi levantado duas hipóteses de melhoria. Objetivo?
-  - O projeto de um Centro de Distribuição
-  - O cálculo de probabilidade de recompras baseados nas avaliações
-
 <details> 
-  <summary> Metodologia </summary>
+  <summary> ## Metodologia </summary>
+  - Análise exploratória
+  - Análise descritiva dos dados
+  - Análise estatística
 
 </details>
-- Análise exploratória
-- Análise descritiva dos dados
-- Análise estatística
 
 <details> 
-  <summary> Resultados </summary>
+  <summary> ## Resultados </summary>
 
   ### Limpeza dos dados
 
@@ -108,8 +107,8 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 <details> 
   <summary> Conclusão </summary>
 
+  - Rever a política de cálculo de prazo de entrega
   
 </details>
-- Rever a política de cálculo de prazo de entrega
 
 [^1]: Para a visualização dos dados descritos, veja a aba `revisões` no arquivo `Ecommerce-ollis.pbix`.
