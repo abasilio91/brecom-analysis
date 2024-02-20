@@ -99,7 +99,7 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 
   ### Análise descritiva dos dados
   
-  Um dos objetivos do estudo foi de verificar a probabilidade de recompras baseado nas opiniões dadas pelos usuários. Para isso, focou-se nas informações vindas das tabelas `orders` e `orders_reviews`. A porcentagem de usuários que deixam comentários sobre os produtos é de cerca de 40%. As avaliações seguem proporções parecidas, independente se o usuário deixa ou não um comentário, sendo que cerca de 88% das avaliações são de 5, 4 ou 1 estrela. Entretanto, um número significativo dos comentários (10%), são feitos antes mesmo de o produto ser recebido. Nestes casos, as avaliações variam, majoritariamente, entre 5 e 1, enquanto que as avaliações com notas 2, 3 ou 4 seguem em proporções menores.[.^1]
+  Um dos objetivos do estudo foi de verificar a probabilidade de recompras baseado nas opiniões dadas pelos usuários. Para isso, focou-se nas informações vindas das tabelas `orders` e `orders_reviews`. A porcentagem de usuários que deixam comentários sobre os produtos é de cerca de 40%. As avaliações seguem proporções parecidas, independente se o usuário deixa ou não um comentário, sendo que cerca de 88% das avaliações são de 5, 4 ou 1 estrela. Entretanto, um número significativo dos comentários (10%), são feitos antes mesmo de o produto ser recebido. Nestes casos, as avaliações variam, majoritariamente, entre 5 e 1, enquanto que as avaliações com notas 2, 3 ou 4 seguem em proporções menores.[^1]
 
   ### Análise estatística
 
@@ -112,4 +112,4 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 </details>
 - Rever a política de cálculo de prazo de entrega
 
-[.^1]: Para a visualização dos dados descritos, veja a aba `revisões` no arquivo `Ecommerce-ollis.pbix`
+[^1]: Para a visualização dos dados descritos, veja a aba `revisões` no arquivo `Ecommerce-ollis.pbix`.
