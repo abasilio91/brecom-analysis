@@ -65,8 +65,11 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
   ``` 
 </details>
 
+## Relatório
+
 <details> 
-  <summary> ## Introdução </summary>
+
+  <summary> Introdução </summary>
 
   - Se apresentar como uma empresa (fictícia) de consultória que ficou responsável por analisar os dados de vendas da Olist (o que é Olist?) e propôr melhorias.
   - Quem é a Olist?
@@ -78,15 +81,17 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 </details>
 
 <details> 
-  <summary> ## Metodologia </summary>
+
+  <summary> Metodologia </summary>
+
   - Análise exploratória
   - Análise descritiva dos dados
-  - Análise estatística
 
 </details>
 
 <details> 
-  <summary> ## Resultados </summary>
+
+  <summary> Resultados </summary>
 
   ### Limpeza dos dados
 
@@ -98,17 +103,44 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 
   ### Análise descritiva dos dados
   
-  Um dos objetivos do estudo foi de verificar a probabilidade de recompras baseado nas opiniões dadas pelos usuários. Para isso, focou-se nas informações vindas das tabelas `orders` e `orders_reviews`. A porcentagem de usuários que deixam comentários sobre os produtos é de cerca de 40%. As avaliações seguem proporções parecidas, independente se o usuário deixa ou não um comentário, sendo que cerca de 88% das avaliações são de 5, 4 ou 1 estrela. Entretanto, um número significativo dos comentários (10%), são feitos antes mesmo de o produto ser recebido. Nestes casos, as avaliações variam, majoritariamente, entre 5 e 1, enquanto que as avaliações com notas 2, 3 ou 4 seguem em proporções menores.[^1]
+  Um dos objetivos do estudo foi de verificar a probabilidade de recompras baseado nas opiniões dadas pelos usuários. Para isso, focou-se nas informações vindas das tabelas `orders` e `orders_reviews`. A porcentagem de usuários que deixam comentários sobre os produtos é de cerca de 40%. As avaliações seguem proporções parecidas, independente se o usuário deixa ou não um comentário, sendo que cerca de 88% das avaliações são de 5, 4 ou 1 estrela. Entretanto, um número significativo dos comentários (10%), são feitos antes mesmo de o produto ser recebido. Nestes casos, as avaliações variam, majoritariamente, entre 5 e 1, enquanto que as avaliações com notas 2, 3 ou 4 seguem em proporções menores[^1]. 
+  
+  Também foi verificada o tamanho médio dos comentários deixados, separados pelo número de estrelas da 
+  avaliação [^2]. Neste análise, ficou claro que os maiores comentários se encontram nas avalições com menores estrelas, ou seja, existe uma correção direta entre o nível de satisfação do usuário e a vontade de o usuário de comunicar sua experiência. 
+  
+  Para se ter um melhor entendimento dos comentários deixados nas publicações, foi gerou-se uma núvem de palavras e destacou-se as vinte palavras mais comuns[^3]. Foi observado que a palavra `produto` aparece com maior frequência em todos os casos, o que não agrega muita relevância. Entretanto, as palavras subsequentes incluem os termos "prazo", "entrega" e "chegou", o que apontam para uma grande relevância nos serviços de entrega e fretamento dos produtos. Além disso, alguns adjetivos e advérbios como "bem", "bom", "antes" também chegaram à lista das palavras mais frequentes. Isoladas, estas não nos dizem muito, mas levanta a questão estas palavras foram combinadas nas avaliações.
+
+  Abaixo seguem alguns exemplos de comentários que trazem pelo menos umas das vinte palavras mais comuns:
+
+  ```
+  Vendedor confiável, produto ok e entrega antes do prazo.
+  -------
+  Recebi exatamente o que esperava. As demais encomendas de outros vendedores atrasaram, mas esta chegou no prazo.
+  -------
+  A entrega foi dividida em duas. Não houve comunicado do loja. Cheguei a pensar que só haviam enviado parte do produto. 
+  -------
+  Gostei da atenção com a entrega
+  -------
+  Produto perfeito, entrega rápida. Estou satisfeitíssima. 👏🏽
+  --------
+  Muito bom o produto, melhor que esperava e foi entregue no prazo, gostei bastante.
+  ```
+
+  Pelo exemplo acima, observa-se que as palavras mais comuns aparecem tanto em comentários bons quanto ruins. Dessa forma, também foi avaliado a frequência com que cada palavra aparecia nos comentários separados pela avaliação de estrelas que este recebeu [^4]. Esta análise mostra a distribuição das palavras nos comentários. Nestas distribuições, observa-se que o uso de adjetivos positivos como "bom" e "antes" aparecem entre as cinco mais comuns para avalições de 5 e 4 estrelas, jantamente com palavras relacionadas ao serviço de entrega. Nas avaliações neutras, (3 estrelas), os adjetivos ainda aparecem, porém caindo para as posições mais intermediárias. Enquanto isso, nas avalições mais baixas (1 e 2 estrelas), adjetivos, mesmo que negativos, quase não aparecem na lista, dando lugar para verbos de ação ("entergue", "veio", "recebi") e substantivos ("compras", "loja", "entrega").
 
   ### Análise estatística
 
 </details>
 
 <details> 
+
   <summary> Conclusão </summary>
 
   - Rever a política de cálculo de prazo de entrega
   
 </details>
 
-[^1]: Para a visualização dos dados descritos, veja a aba `revisões` no arquivo `Ecommerce-ollis.pbix`.
+[^1]: Veja a aba `revisões` no arquivo `Ecommerce-ollist.pbix`.
+[^2]: Veja a aba `media_palavras` no arquivo `Ecommerce-ollist.pbix`.
+[^3]: Veja a aba `word_cloud_geral` no arquivo `Ecommerce-ollist.pbix`.
+[^4]: Veja as abas `soma_relativa_score` e `soma_relativa_por_score` no arquivo `Ecommerce-ollist.pbix`.
