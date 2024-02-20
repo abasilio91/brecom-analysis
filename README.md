@@ -68,8 +68,22 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 
 ## Introdução
 
+- Se apresentar como uma empresa (fictícia) de consultória que ficou responsável por analisar os dados de vendas da Olist (o que é Olist?) e propôr melhorias.
+- Quem é a Olist?
+- Comentar os dados.
+- A princípio foi levantado duas hipóteses de melhoria. Objetivo?
+- [ ]: O projeto de um Centro de Distribuição
+- [ ]: O cálculo de probabilidade de recompras baseados nas avaliações
+
 ## Metodologia
+
+- ETL?
+- Análise descritiva dos dados
+- Análise estatística
 
 ## Resultados
 
+- Resultados da metolologia (sair do python e ir no PowerBI)
+
 ## Conclusão
+- Rever a política de cálculo de prazo de entrega
