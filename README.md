@@ -87,7 +87,15 @@ A base escolhida foi a "Brazilian E-Commerce Public Dataset by Olist", e por iss
 
   <summary> Metodologia </summary>
 
-  Para a primeira hipótese (implantação de um Centro de Distribuição), decidimos que seria importante analisarmos a distribuição dos vendedores pelo país, contratantes da Olist, de onde partem os produtos vendidos nas lojas online, e a distribuição dos consumidores finais dos produtos, e para a segunda hipótese (impacto das avaliações dos clientes) decidimos pela realização de uma análise qualitativa dos comentários deixados pelos clientes em relação aos produtos comprados, inclusive o rating conferido por eles.
+  Para validar ou refutar a primeira hipótese (implantação de um Centro de Distribuição), decidimos que seria importante analisarmos a distribuição dos vendedores pelo país, contratantes da Olist, de onde partem os produtos vendidos nas lojas online, e a distribuição dos consumidores finais dos produtos, e para a segunda hipótese (impacto das avaliações dos clientes) decidimos pela realização de uma análise qualitativa dos comentários deixados pelos clientes em relação aos produtos comprados, inclusive o rating conferido por eles.
+
+  O primeiro passo foi analisar a base de dados, para identificar eventual necessidade de tratamento - o que demandou poucas alterações por parte da nossa equipe, já que o dataset encontrava-se relativamente organizado, com dados padronizados e com tipos adequadamente utilizados.
+
+  Após isso, fizemos a consolidação dos dados relativos aos estados em que estavam domiciliados tanto os vendedores da Olist quanto os clientes finais, para fins de verificação da viabilidade da hipótese de implantação de um Centro de Distribuição.
+
+  Feito isso, buscamos avaliar, através de análise qualitativa, quais palavras mais apareciam nos comentários deixados pelos clientes compradores dos produtos, a fim de entender que aspecto prevalecia naqueles comentários, identificando, assim, o que tinha maior peso na motivação para que o cliente se dispusesse a deixar um comentário sobre a experiência de compra e influenciar na compra de outros potenciais clientes ou mesmo na possibilidade de recompra.
+
+  Com isso nossa equipe chegou às conclusões e traçou recomendações que serão melhor descritas ao longo e ao final do projeto.
   
 </details>
 
